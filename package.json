@@ -1,0 +1,21 @@
+{
+  "name": "maria-athanaseli",
+  "version": "1.0.0",
+  "description": "Static landing page website for Maria Athanaseli.",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonur/maria-athanaseli.git"
+  },
+  "author": "Dimitris Damilos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonur/maria-athanaseli/issues"
+  },
+  "homepage": "https://github.com/Jonur/maria-athanaseli#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,1 +1,4 @@
 .vercel
+.vscode
+.sass-cache/
+node_modules/
