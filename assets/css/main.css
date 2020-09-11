@@ -2123,6 +2123,8 @@ ul.feature-icons {
         top: 3rem; }
       #wrapper > section > header h1:after {
         top: 2.75rem; }
+    #wrapper > section > header h2 {
+      margin-bottom: 3rem; }
     #wrapper > section > .content > section {
       position: relative; }
       #wrapper > section > .content > section:first-child {
