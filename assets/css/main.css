@@ -2067,7 +2067,7 @@ ul.feature-icons {
         letter-spacing: 0.175em;
         line-height: 2.5;
         text-transform: uppercase; }
-        #wrapper section > header p:first-of-type {
+        #wrapper section > header p:not(:last-of-type) {
           margin-bottom: 0; }
       #wrapper section > header ul.actions {
         justify-content: flex-end; }

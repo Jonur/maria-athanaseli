@@ -200,7 +200,7 @@
         line-height: 2.5;
         text-transform: uppercase;
 
-        &:first-of-type {
+        &:not(:last-of-type) {
           margin-bottom: 0;
         }
       }
