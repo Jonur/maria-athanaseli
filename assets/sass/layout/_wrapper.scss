@@ -607,14 +607,9 @@ body.is-mobile {
   > section {
     // Intro.
     &.intro {
-      transition: opacity 1s ease;
       opacity: 1;
 
       > header {
-        transition: transform 1s ease;
-      }
-
-      > .content {
         transition: transform 1s ease;
       }
 

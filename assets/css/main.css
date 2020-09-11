@@ -1551,6 +1551,11 @@ input[type="radio"] + label:before {
       position: absolute;
       top: 0;
       width: 100%; }
+      @media screen and (min-width: 1153px) {
+        .image.fill img {
+          left: auto;
+          right: 16px;
+          z-index: -2; } }
 
 /* List */
 ol {
@@ -2384,11 +2389,8 @@ body.is-mobile #wrapper > section.intro > header {
   body.is-preload #wrapper:before {
     opacity: 0; }
 #wrapper > section.intro {
-  transition: opacity 1s ease;
   opacity: 1; }
   #wrapper > section.intro > header {
-    transition: transform 1s ease; }
-  #wrapper > section.intro > .content {
     transition: transform 1s ease; }
   body.is-preload #wrapper > section.intro {
     opacity: 0; }
