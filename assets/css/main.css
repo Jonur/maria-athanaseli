@@ -2427,4 +2427,9 @@ body.is-ie #wrapper > section > .content > section {
   body.is-ie #wrapper section > footer {
     padding: 4rem; } }
 
+@media screen and (max-width: 480px) {
+  .g-recaptcha {
+    display: flex;
+    justify-content: center; } }
+
 /*# sourceMappingURL=main.css.map */

@@ -698,3 +698,10 @@ body.is-ie {
     }
   }
 }
+
+.g-recaptcha {
+  @include breakpoint("<=xsmall") {
+    display: flex;
+    justify-content: center;
+  }
+}
